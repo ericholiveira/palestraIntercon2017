@@ -1,0 +1,39 @@
+<html>
+  <head>
+      <title>Palestra The Developers Conference POA 2015</title>
+    <style>
+      .obj {
+        top: 50px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        border-radius: 25px;
+        border-style:solid;
+        border-width:2px;
+        border-color: red;
+        -webkit-animation-name: example; /* Chrome, Safari, Opera */
+        -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+        -webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+        -webkit-animation-direction: normal; /* Chrome, Safari, Opera */
+        animation-timing-function: linear;
+      }
+      .obj span{
+        top: 18px;
+        left: 20px;
+        position: relative;
+      }
+
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes example {
+        from{left:0px;}
+        to{left:800px;}
+      }
+    </style>
+  </head>
+  <body>
+    <button id="desenha" style="top:300px; position:absolute;">Desenha</button>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="Rx.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
